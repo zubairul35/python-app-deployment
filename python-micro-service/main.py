@@ -2,7 +2,7 @@ from flask import Flask, redirect, render_template
 
 app = Flask(__name__)
 
-ip = '192.168.56.30'
+ip = '127.0.0.1'
 # Render the homepage with buttons
 @app.route('/')
 def index():
